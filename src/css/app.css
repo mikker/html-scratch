@@ -1,0 +1,12 @@
+@import "tachyons/src/tachyons";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #ffa;
+}
+
+.container {
+  max-width: 72em;
+  margin-left: auto;
+  margin-right: auto;
+}

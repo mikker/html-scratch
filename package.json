@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
+    "babel-brunch": "^6.0.6",
+    "babel-polyfill": "^6.13.0",
+    "brunch": "^2.0.0",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0",
+    "postcss-browser-reporter": "^0.5.0",
+    "postcss-brunch-again": "^0.1.2",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.2",
+    "postcss-reporter": "^1.4.1",
+    "tachyons": "^4.2.1",
+    "uglify-js-brunch": "^2.0.0"
+  }
+}
