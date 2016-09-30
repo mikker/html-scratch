@@ -1,7 +1,7 @@
 @import "tachyons/src/tachyons";
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--font-family);
   background: #ffa;
 }
 
@@ -9,4 +9,9 @@ body {
   max-width: 72em;
   margin-left: auto;
   margin-right: auto;
+}
+
+:root {
+  --helvetica: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --font-family: -apple-system, BlinkMacSystemFont, var(--helvetica);
 }

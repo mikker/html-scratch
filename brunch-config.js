@@ -13,12 +13,8 @@ module.exports = {
     babel: { presets: ['es2015'] },
     postcss: {
       processors: [
-        /* eslint-disable global-require */
         require('postcss-import')({ path: 'src/css' }),
-        require('postcss-cssnext')(),
-        require('postcss-browser-reporter')(),
-        require('postcss-reporter')()
-        /* eslint-enable global-require */
+        require('postcss-cssnext')({})
       ]
     }
   },
