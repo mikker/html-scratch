@@ -1,4 +1,4 @@
-import 'babel-polyfill'
+'use strict'
 
 document.addEventListener('DOMContentLoaded', () => {
   console.log('loaded')
